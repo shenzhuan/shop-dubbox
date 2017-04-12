@@ -18,22 +18,27 @@ http://git.oschina.net/catshen/cat
 
 ### 运行部署
 运行zscat-tools 下面的run.bat 同时启动zookeep redis nginx，默认配置 在app.properties修改
-1.修改shop-order模块下的app.properties 的数据库链接 ，运行Bootstrap类
+### 1.修改shop-order模块下的app.properties 的数据库链接 ，运行Bootstrap类
 
-2.修改shop-member模块下的app.properties 的数据库链接 ，运行Bootstrap类
+
+### 2.修改shop-member模块下的app.properties 的数据库链接 ，运行Bootstrap类
+
 ![输入图片说明](http://git.oschina.net/uploads/images/2017/0412/100614_d296568c_134431.png "在这里输入图片标题")
 
-3.修改shop-goods模块下的app.properties 的数据库链接 ，运行Bootstrap类
+### 3.修改shop-goods模块下的app.properties 的数据库链接 ，运行Bootstrap类
+
 ![输入图片说明](http://git.oschina.net/uploads/images/2017/0412/100627_9374930e_134431.png "在这里输入图片标题")
 
-4.用tomcat添加shop-admin，修改tomcat端口为4080  访问 http://localhost:4080/shop-admin/
+### 4.用tomcat添加shop-admin，修改tomcat端口为4080  访问 http://localhost:4080/shop-admin/
+
 ![输入图片说明](http://git.oschina.net/uploads/images/2017/0412/101032_1320272c_134431.png "在这里输入图片标题")
 商品管理
 ![输入图片说明](http://git.oschina.net/uploads/images/2017/0412/101314_811d498c_134431.png "在这里输入图片标题")
 楼层管理
 ![输入图片说明](http://git.oschina.net/uploads/images/2017/0412/101322_82a87832_134431.png "在这里输入图片标题")
 
-5.用tomcat添加shop-web， 访问 http://localhost:8080/shop-web/front
+### 5.用tomcat添加shop-web， 访问 http://localhost:8080/shop-web/front
+
 ![输入图片说明](http://git.oschina.net/uploads/images/2017/0412/101020_3545076d_134431.png "在这里输入图片标题")
 ![输入图片说明](http://git.oschina.net/uploads/images/2017/0412/101514_9c2830ca_134431.png "在这里输入图片标题")
 ![输入图片说明](http://git.oschina.net/uploads/images/2017/0412/101530_73ba9328_134431.png "在这里输入图片标题")
@@ -45,3 +50,7 @@ brave-dubbo.xml 采集数据到zikpin，生成分布式调研链数据
 ![输入图片说明](http://git.oschina.net/uploads/images/2017/0412/101956_c632c810_134431.png "在这里输入图片标题")
 ![输入图片说明](http://git.oschina.net/uploads/images/2017/0412/102006_e8778091_134431.png "在这里输入图片标题")
 ![输入图片说明](http://git.oschina.net/uploads/images/2017/0412/102015_2204af0a_134431.png "在这里输入图片标题")
+
+### 启动dubbo-montior
+
+http://git.oschina.net/handu/dubbo-monitor
