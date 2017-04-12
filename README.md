@@ -54,3 +54,9 @@ brave-dubbo.xml 采集数据到zikpin，生成分布式调研链数据
 ### 启动dubbo-montior
 
 http://git.oschina.net/handu/dubbo-monitor
+
+sharding jdbc整合介绍
+http://blog.csdn.net/a1439226817/article/details/64437915
+
+
+qq 951449465
